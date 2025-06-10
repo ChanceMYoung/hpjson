@@ -12,7 +12,7 @@ def get_card_key(card):
 # Capitalizes each word for use in imgSrc generation
 def smart_title(name):
     def cap(word):
-        return '-'.join(part.capitalize() for part in word.split('-')) # Capitalize each word, including both parts of a hyphenated word
+        return '-'.join(part[0].upper() + part[1:] if part else '' for part in word.split('-')) # Capitalize each word, including both parts of a hyphenated word. Takes into account words like McGonnagal
 
     tokens = re.findall(r"\b[\w'-]+\b", name) # Split the name into words, including apostrophes
     return ' '.join(cap(token) for token in tokens) # Runs the interior cap function

@@ -37,7 +37,7 @@
                 "Unique"
             ],
             "rarity": "Rare",
-            "flavorText": "‘“He’s that tall, good-looking one, isn’t he?” said Angelina.“Strong and silent,” said Katie, and they started to giggle again.’",
+            "flavorText": "ï¿½ï¿½Heï¿½s that tall, good-looking one, isnï¿½t he?ï¿½ said Angelina.ï¿½Strong and silent,ï¿½ said Katie, and they started to giggle again.ï¿½",
             "effect": [
                 "Once per game, you may discard your hand and then draw 6 cards."
             ]
@@ -56,7 +56,7 @@
                 "Unique"
             ],
             "rarity": "Rare",
-            "flavorText": "‘She was undoubtedly a very good flier — she kept cutting across him, forcing him to change direction.’",
+            "flavorText": "ï¿½She was undoubtedly a very good flier ï¿½ she kept cutting across him, forcing him to change direction.ï¿½",
             "effect": [
                 "At the end of each of your turns, if an opponent has more Lessons in play than you, you may search your deck. You may take up to 2 [Q] Lessons from your deck, reveal them, put 1 into play and the rest into your hand, and then shuffle your deck."
             ]
@@ -77,7 +77,7 @@
             ],
             "cost": 9,
             "rarity": "Rare",
-            "flavorText": "‘Now was the moment to avenge his mother and father. He was going to kill Black. He had to kill Black.’",
+            "flavorText": "ï¿½Now was the moment to avenge his mother and father. He was going to kill Black. He had to kill Black.ï¿½",
             "effect": [
                 "Before each of your turns, count the number of Marauder cards that you have in your discard pile and in play. Do that much damage to an opponent."
             ]
@@ -155,7 +155,7 @@
                 "Unique"
             ],
             "rarity": "Rare",
-            "flavorText": "‘“He’s made some changes in the lineup and seems to be going for size rather than skill —”’ — Lee Jordan",
+            "flavorText": "ï¿½ï¿½Heï¿½s made some changes in the lineup and seems to be going for size rather than skill ï¿½ï¿½ï¿½ ï¿½ Lee Jordan",
             "effect": [
                 "You may use an Action and discard a Lesson from your hand. If you do, choose an opponent. During their next turn, they get 1 fewer Action. (If this would mean your opponent has fewer than 1 Action, they still get 1 Action.)"
             ]
@@ -175,7 +175,7 @@
             ],
             "cost": 7,
             "rarity": "Rare",
-            "flavorText": "‘... no amount of mud, wind, or rain could tarnish Harry’s wonderful vision of finally winning the huge, silver Quidditch Cup.’",
+            "flavorText": "ï¿½... no amount of mud, wind, or rain could tarnish Harryï¿½s wonderful vision of finally winning the huge, silver Quidditch Cup.ï¿½",
             "effect": [
                 "If you have a Beater, Keeper, Chaser and Seeker in play, whenever you use an Action to play a Match, you win the Match."
             ]
@@ -193,7 +193,7 @@
                 "Unique"
             ],
             "rarity": "Rare",
-            "flavorText": "‘“Is there any point asking how you’re going to sit for two exams at once?”’ — Harry Potter",
+            "flavorText": "ï¿½ï¿½Is there any point asking how youï¿½re going to sit for two exams at once?ï¿½ï¿½ ï¿½ Harry Potter",
             "effect": [
                 "Once per turn, if you have at least 5 Lessons in your discard pile, you may use an Action to put up to 2 non-Advanced Lessons from your discard pile into play."
             ]
@@ -406,7 +406,7 @@
             ],
             "cost": 15,
             "rarity": "Rare",
-            "flavorText": "‘Harry and Ron both made furious moves toward Malfoy, but Hermione got there first ...’",
+            "flavorText": "ï¿½Harry and Ron both made furious moves toward Malfoy, but Hermione got there first ...ï¿½",
             "effect": [
                 "Choose an opponent. They may discard any number of their cards from play and/or from their hand. Then, count the number of cards they have in their hand and in play. Do twice that much damage to that opponent."
             ]
@@ -423,14 +423,14 @@
             ],
             "cost": 12,
             "rarity": "Rare",
-            "flavorText": "‘“Miss Granger, three turns should do it. Good luck.”’ — Albus Dumbledore",
+            "flavorText": "ï¿½ï¿½Miss Granger, three turns should do it. Good luck.ï¿½ï¿½ ï¿½ Albus Dumbledore",
             "effect": [
                 "Choose a non-Healing card in your discard pile other than Three Turns. Play that card without using any Actions."
             ]
         },
         {
             "number": "23",
-            "name": "Walden MacNair",
+            "name": "Walden Macnair",
             "artist": "Madeline Nagel",
             "type": [
                 "Character"
@@ -441,7 +441,7 @@
                 "Unique"
             ],
             "rarity": "Rare",
-            "flavorText": "‘“... an’ the executioner, Macnair, he’s an old pal o’ Malfoy’s ... but it’ll be quick an’ clean ... an’ I’ll be beside him ...”’ — Professor Rubeus Hagrid",
+            "flavorText": "ï¿½ï¿½... anï¿½ the executioner, Macnair, heï¿½s an old pal oï¿½ Malfoyï¿½s ... but itï¿½ll be quick anï¿½ clean ... anï¿½ Iï¿½ll be beside him ...ï¿½ï¿½ ï¿½ Professor Rubeus Hagrid",
             "effect": [
                 "Whenever a Creature does damage to you, you may prevent all but the first 1 damage."
             ]
@@ -492,7 +492,7 @@
                 "Animagus"
             ],
             "rarity": "Uncommon",
-            "flavorText": "‘“It takes years to become an Animagus, and then you have to register yourself and everything.”’ — Hermione Granger",
+            "flavorText": "ï¿½ï¿½It takes years to become an Animagus, and then you have to register yourself and everything.ï¿½ï¿½ ï¿½ Hermione Granger",
             "dmgEachTurn": 2,
             "health": 2,
             "effect": [
@@ -569,7 +569,7 @@
             ],
             "cost": 4,
             "rarity": "Uncommon",
-            "flavorText": "‘“Mars is bright tonight. Unusually bright.”’ — Ronan",
+            "flavorText": "ï¿½ï¿½Mars is bright tonight. Unusually bright.ï¿½ï¿½ ï¿½ Ronan",
             "dmgEachTurn": 2,
             "health": 1,
             "effect": [
@@ -588,7 +588,7 @@
             ],
             "cost": 5,
             "rarity": "Uncommon",
-            "flavorText": "‘...  the class left for lunch, all grinning broadly — the Cheering Charms had left them with a feeling of great contentment.’",
+            "flavorText": "ï¿½...  the class left for lunch, all grinning broadly ï¿½ the Cheering Charms had left them with a feeling of great contentment.ï¿½",
             "effect": [
                 "Put a non-Healing Spell from your discard pile into your hand."
             ]
@@ -658,7 +658,7 @@
             ],
             "cost": 5,
             "rarity": "Uncommon",
-            "flavorText": "‘He could feel them watching him, hear their rattling breath like an evil wind around him.’",
+            "flavorText": "ï¿½He could feel them watching him, hear their rattling breath like an evil wind around him.ï¿½",
             "dmgEachTurn": 2,
             "health": 6,
             "effect": [
@@ -697,7 +697,7 @@
             ],
             "cost": 3,
             "rarity": "Common",
-            "flavorText": "‘He nodded toward an empty classroom to the left of the one-eyed statue. Harry followed Fred and George inside.’",
+            "flavorText": "ï¿½He nodded toward an empty classroom to the left of the one-eyed statue. Harry followed Fred and George inside.ï¿½",
             "effect": [
                 "Locations need 3 more Power to play."
             ],
@@ -751,7 +751,7 @@
             ],
             "cost": 8,
             "rarity": "Rare",
-            "flavorText": "‘“We’ve checked for most of the usual curses, but Professor Flitwick believes the broom might be carrying a Hurling Hex.”’ — Professor McGonagall",
+            "flavorText": "ï¿½ï¿½Weï¿½ve checked for most of the usual curses, but Professor Flitwick believes the broom might be carrying a Hurling Hex.ï¿½ï¿½ ï¿½ Professor McGonagall",
             "effect": [
                 "Choose an Item in play. Draw cards equal to the chosen Item's printed Power cost. Then each other player draws cards equal to the chosen Item's printed Power cost."
             ]
@@ -771,7 +771,7 @@
             ],
             "cost": 2,
             "rarity": "Uncommon",
-            "flavorText": "‘There were suddenly dim shadows on the ground. Their party was bathed in moonlight.’",
+            "flavorText": "ï¿½There were suddenly dim shadows on the ground. Their party was bathed in moonlight.ï¿½",
             "provides": [
                 {
                     "lesson": "Potions",
@@ -794,7 +794,7 @@
             ],
             "cost": 7,
             "rarity": "Uncommon",
-            "flavorText": "‘“It’s called a Time-Turner,” Hermione whispered, “and I got it from Professor McGonagall on our first day back.”’",
+            "flavorText": "ï¿½ï¿½Itï¿½s called a Time-Turner,ï¿½ Hermione whispered, ï¿½and I got it from Professor McGonagall on our first day back.ï¿½ï¿½",
             "effect": [
                 "You may reveal any number of cards from your hand. For each card type revealed, do 2 damage to an opponent."
             ]
@@ -852,7 +852,7 @@
             ],
             "cost": 5,
             "rarity": "Uncommon",
-            "flavorText": "‘“Who’d have thought it? That brings her total of real predictions up to two. I should offer her a pay raise. ...”’ — Albus Dumbledore",
+            "flavorText": "ï¿½ï¿½Whoï¿½d have thought it? That brings her total of real predictions up to two. I should offer her a pay raise. ...ï¿½ï¿½ ï¿½ Albus Dumbledore",
             "effect": [
                 "Whenever cards are put in an opponent's deck (even if they were already in the deck), do 2 damage to them."
             ]
@@ -1037,7 +1037,7 @@
             ],
             "cost": 3,
             "rarity": "Common",
-            "flavorText": "‘“Ugh, no, Harry won’t want one of those, they’re for vampires, I expect.”’ — Hermione Granger",
+            "flavorText": "ï¿½ï¿½Ugh, no, Harry wonï¿½t want one of those, theyï¿½re for vampires, I expect.ï¿½ï¿½ ï¿½ Hermione Granger",
             "effect": [
                 "Discard the top card of your deck. If it shares a card type with a card an opponent has in play, you may choose 1 of those cards and discard it. Then draw a card."
             ]
@@ -1054,7 +1054,7 @@
             ],
             "cost": 6,
             "rarity": "Common",
-            "flavorText": "‘“We’re not playing Slytherin!” he told them, looking very angry. “Flint’s just been to see me.”’",
+            "flavorText": "ï¿½ï¿½Weï¿½re not playing Slytherin!ï¿½ he told them, looking very angry. ï¿½Flintï¿½s just been to see me.ï¿½ï¿½",
             "effect": [
                 "Choose up to 2 Beaters, Chasers, Keepers, and/or Seekers in play and return them to their owners' hands."
             ]
@@ -1074,7 +1074,7 @@
             ],
             "cost": 2,
             "rarity": "Common",
-            "flavorText": "‘... a pair of strong, clammy hands suddenly attached themselves around Harry’s neck.’",
+            "flavorText": "ï¿½... a pair of strong, clammy hands suddenly attached themselves around Harryï¿½s neck.ï¿½",
             "effect": [
                 "Choose a non-Lesson card type. During your opponent's next turn, they cannot play cards of the chosen type."
             ]
@@ -1094,7 +1094,7 @@
             ],
             "cost": 4,
             "rarity": "Common",
-            "flavorText": "‘And then the thing beneath the hood, whatever it was, drew a long, slow, rattling breath, as though it were trying to suck something more than air from its surroundings.’",
+            "flavorText": "ï¿½And then the thing beneath the hood, whatever it was, drew a long, slow, rattling breath, as though it were trying to suck something more than air from its surroundings.ï¿½",
             "effect": [
                 "Do 1 damage to each Creature in play (even your own)."
             ]
@@ -1174,7 +1174,7 @@
             ],
             "cost": 2,
             "rarity": "Common",
-            "flavorText": "‘Full of determination, the team started training sessions, three evenings a week.’",
+            "flavorText": "ï¿½Full of determination, the team started training sessions, three evenings a week.ï¿½",
             "effect": [
                 "Discard any number of cards from your hand. Draw that many cards plus 1."
             ]
@@ -1191,7 +1191,7 @@
             ],
             "cost": 7,
             "rarity": "Common",
-            "flavorText": "‘“We attacked a teacher. ... We attacked a teacher ... ,” Hermione whimpered, staring at the lifeless Snape with frightened eyes.’",
+            "flavorText": "ï¿½ï¿½We attacked a teacher. ... We attacked a teacher ... ,ï¿½ Hermione whimpered, staring at the lifeless Snape with frightened eyes.ï¿½",
             "effect": [
                 "Do 6 damage to an opponent or choose a Character in play and discard it."
             ]
@@ -1208,7 +1208,7 @@
             ],
             "cost": 3,
             "rarity": "Common",
-            "flavorText": "‘“She was usually last to leave the common room at night, first to arrive at the library the next morning ...”’",
+            "flavorText": "ï¿½ï¿½She was usually last to leave the common room at night, first to arrive at the library the next morning ...ï¿½ï¿½",
             "effect": [
                 "Count the number of Lessons in your discard pile. Until the end of your turn, your cards needs that much less Power to play. (You still need at least 1 Power that matches.)"
             ]
@@ -1246,7 +1246,7 @@
             ],
             "cost": 5,
             "rarity": "Common",
-            "flavorText": "‘“Oooooo, Professor Trelawney, I’ve just remembered! You saw her leaving, didn’t you?”’ — Lavender Brown",
+            "flavorText": "ï¿½ï¿½Oooooo, Professor Trelawney, Iï¿½ve just remembered! You saw her leaving, didnï¿½t you?ï¿½ï¿½ ï¿½ Lavender Brown",
             "effect": [
                 "Choose an opponent's card in play and return it to its owner's hand. If you have at least 3 [T] Lessons in your discard pile, instead shuffle it into its owner's deck."
             ]
@@ -1263,7 +1263,7 @@
             ],
             "cost": 4,
             "rarity": "Uncommon",
-            "flavorText": "‘He nodded toward an empty classroom to the left of the one-eyed statue. Harry followed Fred and George inside.’",
+            "flavorText": "ï¿½He nodded toward an empty classroom to the left of the one-eyed statue. Harry followed Fred and George inside.ï¿½",
             "effect": [
                 "When you play this card, name a Character card. Cards that share Uniqueness with the named card cannot be played. You may use 2 Actions and discard this card from play to search your deck. You may take the named card from your deck and put it into play. Then shuffle your deck."
             ]
@@ -1337,7 +1337,7 @@
             ],
             "cost": 3,
             "rarity": "Common",
-            "flavorText": "‘“Lures travellers into bogs. You notice the lantern dangling from his hand? Hops ahead — people follow the light ...”’ — Professor Remus Lupin",
+            "flavorText": "ï¿½ï¿½Lures travellers into bogs. You notice the lantern dangling from his hand? Hops ahead ï¿½ people follow the light ...ï¿½ï¿½ ï¿½ Professor Remus Lupin",
             "dmgEachTurn": 1,
             "health": 1,
             "effect": [
@@ -1359,7 +1359,7 @@
             ],
             "cost": 8,
             "rarity": "Common",
-            "flavorText": "‘They had the bodies, hind legs, and tails of horses, but the front legs, wings, and heads of what seemed to be giant eagles ...’",
+            "flavorText": "ï¿½They had the bodies, hind legs, and tails of horses, but the front legs, wings, and heads of what seemed to be giant eagles ...ï¿½",
             "dmgEachTurn": 3,
             "health": 4,
             "effect": [
@@ -1378,7 +1378,7 @@
             ],
             "cost": 7,
             "rarity": "Common",
-            "flavorText": "‘“Can't nothing interfere with a broomstick except powerful Dark magic ...”’ — Rubeus Hagrid",
+            "flavorText": "ï¿½ï¿½Can't nothing interfere with a broomstick except powerful Dark magic ...ï¿½ï¿½ ï¿½ Rubeus Hagrid",
             "effect": [
                 "Do 4 damage to your opponent. You may also choose a Creature in play and do 4 damage to it."
             ]
@@ -1395,7 +1395,7 @@
             ],
             "cost": 1,
             "rarity": "Common",
-            "flavorText": "‘They walked out onto the field to a tidal wave of noise.’",
+            "flavorText": "ï¿½They walked out onto the field to a tidal wave of noise.ï¿½",
             "effect": [
                 "to win: Whenever a player takes damage, they may discard any number of cards from their hand. They prevent that much damage.  To win: Prevent 8 damage.",
                 "prize: The winner may draw 2 cards. The loser takes 8 damage."
@@ -1415,7 +1415,7 @@
             ],
             "cost": 3,
             "rarity": "Common",
-            "flavorText": "‘“This time tomorrow, the owls will start arriving from parents. . . . They will not want a werewolf teaching their children, Harry.”’ — Professor Remus Lupin",
+            "flavorText": "ï¿½ï¿½This time tomorrow, the owls will start arriving from parents. . . . They will not want a werewolf teaching their children, Harry.ï¿½ï¿½ ï¿½ Professor Remus Lupin",
             "effect": [
                 "If at least 1 of your Creatures dealt damage to an opponent this turn, choose a non-Healing Character in play and shuffle it into its owner's deck."
             ]
@@ -1497,7 +1497,7 @@
             ],
             "cost": 4,
             "rarity": "Common",
-            "flavorText": "‘He slithered between the battering branches like a snake and placed his front paws upon a knot on the trunk.’",
+            "flavorText": "ï¿½He slithered between the battering branches like a snake and placed his front paws upon a knot on the trunk.ï¿½",
             "effect": [
                 "Do 4 damage to an opponent. During that opponent's next turn, they can't use Actions to play Creature cards."
             ]
@@ -1534,7 +1534,7 @@
             ],
             "cost": 5,
             "rarity": "Uncommon",
-            "flavorText": "‘“BLOOD!” Ron yelled into the stunned silence. “HE’S GONE!”’",
+            "flavorText": "ï¿½ï¿½BLOOD!ï¿½ Ron yelled into the stunned silence. ï¿½HEï¿½S GONE!ï¿½ï¿½",
             "effect": [
                 "Once during each of your turns, whenever 1 of your Creatures does damage to an opponent, you may discard it from play. If you do, do 4 damage to that opponent."
             ]
@@ -1551,7 +1551,7 @@
             ],
             "cost": 5,
             "rarity": "Common",
-            "flavorText": "“It’s okay, Scabbers!” said Ron. “No cats! There’s nothing here to hurt you!”",
+            "flavorText": "ï¿½Itï¿½s okay, Scabbers!ï¿½ said Ron. ï¿½No cats! Thereï¿½s nothing here to hurt you!ï¿½",
             "effect": [
                 "You may put a Creature from your discard pile into your hand. If you have at least 3 [F] Lessons in your discard pile, you may play that Creature without using an Action."
             ]
