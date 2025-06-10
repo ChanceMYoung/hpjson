@@ -1,6 +1,7 @@
 import os
 import json
 import re
+import string
 
 # -------------------------------- Helper Functions -------------------------------- #
 
@@ -8,13 +9,21 @@ import re
 def get_card_key(card):
     return (card["number"], card["name"], card["setName"])
 
+# Capitalizes each word for use in imgSrc generation
+def smart_title(name):
+    def cap(word):
+        return '-'.join(part.capitalize() for part in word.split('-')) # Capitalize each word, including both parts of a hyphenated word
+
+    tokens = re.findall(r"\b[\w'-]+\b", name) # Split the name into words, including apostrophes
+    return ' '.join(cap(token) for token in tokens) # Runs the interior cap function
 # Adds imgSrc to each card
 def generate_img_src(card):
 
     name = str(card.get("name", "")) # Just ensures the name is a string
     number = str(card.get("number", "")) # Just ensures the number is a string
 
-    cleaned_name = re.sub(r'[^a-zA-Z0-9]', '', name) # Removes everything that isn't a letter or number, including spaces and punctuation
+    title_case = smart_title(name) # Capitalize each word before combining E.g. "of, on, and, the, in , etc."
+    cleaned_name = re.sub(r'[^a-zA-Z0-9]', '', title_case) # Removes everything that isn't a letter or number, including spaces and punctuation
     match = re.match(r".*([a-zA-Z])$", number)
     version_suffix = ""
 
@@ -38,7 +47,7 @@ def clean_adventure_cards(cards):
                 ]
                 # If it cleaned the card, this will print out which card was cleaned and then add 1 to the changes_made to keep track
                 if len(new_effect) != len(card["effect"]):
-                    print(f"Cleaning Adventure card: {card["name"]}")
+                    print(f"Cleaning Adventure card: {card['name']}")
                     card["effect"] = new_effect
                     changes_made +=1
     print(f"Cleaned {changes_made} Adventure cards") # Prints out how many adventure cards were cleaned
@@ -144,13 +153,13 @@ for card in all_cards: # Checks every card in all cards
     card_key = get_card_key(card) # Creates a special key for each card
 
     if card_key not in existing_keys: # If the special key is not in the existing keys of the main cards.json cards run this
-        print(f"Found new card: {card["name"]} (from {card["setName"]})")
+        print(f"Found new card: {card['name']} (from {card['setName']})")
         new_cards.append(card) # Add new card to new cards array
         existing_dict[card_key] = card
     else:
         existing_card = existing_dict[card_key]
         if card != existing_card:
-            print(f"Updated card: {card["name"]} (from {card["setName"]})")
+            print(f"Updated card: {card['name']} (from {card['setName']})")
             updated_cards.append(card)
             existing_dict[card_key] = card
 
@@ -172,8 +181,11 @@ with open("cards.js", 'w', encoding='utf-8') as f: # Open the main cards.js file
 # -------------------------------- Confirmation -------------------------------- #
 
 
-print(f"✅ Added {len(new_cards)} new cards.") # Prints how many new cards were added
-
-print(f"✅ Updated {len(updated_cards)} existing cards.") # Prints how many new cards were added
-
+try: # some OS don't like the ✅Add commentMore actions
+    print(f"✅ Added {len(new_cards)} new cards.") # Prints how many new cards were added
+    print(f"✅ Updated {len(updated_cards)} existing cards.") # Prints how many new cards were added
+except Exception:
+    print(f"Added {len(new_cards)} new cards.")  # Prints how many new cards were added
+    print(f"Updated {len(updated_cards)} existing cards.")  # Prints how many new cards were addedAdd comment
+    
 print("Export complete, cards.js and cards.json") # Print out a line to notify of script completion
